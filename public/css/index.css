@@ -25,7 +25,7 @@ p:hover {
 
 text-align: justify;
 
-letter-spacing: 0.01px;
+letter-spacing:0.01px;
 }
 
 span {
@@ -41,5 +41,24 @@ span:hover{
 }
 
 pre {
-	tab-size:4;
+	tab-size:5;
+}
+
+* {
+	font-family:"Roboto",Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 900;
+	
+	font-display: swap;
+}
+
+span {
+	font-size:larger;
+	font-weight:lighter;
+
+	/* font-style: oblique; */
+}
+
+p {
+	font-stretch: expanded;
 }
